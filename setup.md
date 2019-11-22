@@ -9,7 +9,7 @@ You will need to install [MATLAB][matlab] to do this lesson.
 You will also need to download some data, which we will analyze using MATLAB:
 
 1.  Make a new folder in your `/home/username/` called `matlab-novice-inflammation` by steps below (2 OR 3).
-2.  Download [octave-novice-inflammation-data.zip](https://github.com/miftanurfarid/pelatihan-matlab/data/matlab-novice-inflammation-data.zip) and extract it (right click > extract here, on Ubuntu), OR:
+2.  Download [matlab-novice-inflammation-data.zip](https://github.com/miftanurfarid/pelatihan-matlab/data/matlab-novice-inflammation-data.zip) and extract it (right click > extract here, on Ubuntu), OR:
 3.	Run the following commands on terminal,
 ~~~
 $ wget https://github.com/miftanurfarid/pelatihan-matlab/data/matlab-novice-inflammation-data.zip
@@ -23,4 +23,4 @@ cd /home/Username/matlab-novice-inflammation-data
 ~~~
 {: .bash}
 
-[gnu-octave]: https://www.mathworks.com/products/matlab.html
+[matlab]: https://www.mathworks.com/products/matlab.html
