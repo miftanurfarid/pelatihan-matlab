@@ -3,9 +3,9 @@ title: Creating Functions
 teaching: 30
 exercises: 0
 questions:
-- "How can I teach Octave how to do new things?"
+- "How can I teach MATLAB how to do new things?"
 objectives:
-- "Compare and contrast Octave function files with Octave scripts."
+- "Compare and contrast MATLAB function files with MATLAB scripts."
 - "Define a function that takes parameters."
 - "Test a function."
 - "Recognize why we should divide programs into small, single-purpose functions."
@@ -34,7 +34,7 @@ end
 ~~~
 {: .matlab}
 
-An Octave function *must* be saved in a text file with a `.m` extension.
+An MATLAB function *must* be saved in a text file with a `.m` extension.
 The name of that file must be the same as the function defined
 inside it. The name must start with a letter and cannot contain spaces.
 So, you will need to save the above code in a file called
@@ -54,19 +54,19 @@ function definition line is called the *body* of the
 function. The keyword `end` marks the end of the function body, and the
 function won't know about any code after `end`.
 
-Just as we saw with scripts, functions must be _visible_ to Octave, i.e.,
+Just as we saw with scripts, functions must be _visible_ to MATLAB, i.e.,
 a file containing a function has to be placed in a directory that
-Octave knows  about. The most convenient of those directories is the
+MATLAB knows  about. The most convenient of those directories is the
 current working directory.
 
-> ## GNU Octave - Matlab compatibility
+> ## GNU MATLAB - Matlab compatibility
 >
-> In common with Octave, Octave searches the current working directory and
+> In common with MATLAB, MATLAB searches the current working directory and
 > the path for functions called from the command line.
 {: .callout}
 
 We can call our function from the command line
-like any other Octave function:
+like any other MATLAB function:
 
 ~~~
 fahr_to_kelvin(32)
@@ -151,7 +151,7 @@ or the next person who reads it won't be able to understand what's going on.
 
 > ## Concatenating in a Function
 >
-> In Octave, we concatenate strings by putting them into an array or using the
+> In MATLAB, we concatenate strings by putting them into an array or using the
 > `strcat` function:
 >
 > ~~~
