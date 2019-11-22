@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Octave Programming"
+title: "Matlab Programming"
 
 # Contact email address.
-email: btatmaja@gmail.com
+email: miftanurfarid@gmail.com
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -20,7 +20,7 @@ kind: "lesson"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: bagustris/octave-tutorial
+repository: miftanurfarid/pelatihan-matlab
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
