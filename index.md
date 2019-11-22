@@ -3,12 +3,6 @@ layout: lesson
 root: .
 ---
 
-
-<!-- > ## MATLAB -->
->
-<!-- > [MATLAB](http://www.gnu.org/software/octave/) is a free and open-source alternative
-> to MATLAB which shares its syntax ([see more about compatibility](http://en.wikipedia.org/wiki/GNU_Octave#MATLAB_compatibility)).  -->
-
 We use MATLAB because the following reasons:
 1. we have to use *something* for examples;
 2. it's well-documented;
