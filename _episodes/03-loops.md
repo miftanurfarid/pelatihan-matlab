@@ -548,10 +548,10 @@ function could be re-used to check all our future data files.
 > the current directory.
 {: .challenge}
 
-> ## GNU MATLAB
+> ## MATLAB
 >
 > Lastly, in the above trick using `ls` with the wildcard `*`,
-> another small MATLAB/MATLAB
+> another small MATLAB
 > difference shows up. In MATLAB, the value returned by
 > `filestr = ls('path/to/data/*.csv')` is an array of strings, so we can loop
 > over `filestr` directly without the need to split it with `strsplit`.
